@@ -1,0 +1,104 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  /* background-image: url('https://wallpaperaccess.com/full/8611.jpg') ; */
+  /* background-image: url('https://images.wallpapersden.com/image/download/pokemon-pikachu-art_a25tbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg'); */
+  background-image: url('https://i0.wp.com/i.redd.it/laihibkyx1o41.jpg?resize=640%2C9999&ssl=1');
+}
+
+#beginning{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#pokedex-parent{
+  border-radius: 20px;
+}
+
+/* #pokedex-body{
+  background-image: url('https://media-s3-us-east-1.ceros.com/hype-beast/images/2018/07/13/3510cdb9cf222cd0cec19fdfea4bddbb/pokedex.png?imageOpt=1&fit=bounds&width=1047');
+  /* background-position: center center; */
+  /* height: 80vh;
+  width: 55%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10vh;
+}  */
+
+#pokedex-body{
+  background-image: url('https://i.imgur.com/K1rK9WO.png');
+  /* background-position: center center; */
+  background-repeat: no-repeat; 
+  height: 110vh;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  /* margin-top: 10vh; */
+} 
+
+#pokedex-body h1{
+  text-align: center;
+  opacity: 0;
+}
+
+#pokedex-screen{
+  /* background-color: white; */
+  height: 23.45vh;
+  width: 31.5%;
+
+  border-radius: 17px;
+  /* /* margin-top: 30.2vh;
+  padding-left: 0; */
+  margin-left: 12.5vh; 
+  margin-top: 27.2vh;
+  font-size: .5rem;
+}
+
+#inPokedexScreen{
+  display: grid;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#poke-holder{
+  height: 9.5vh;
+  width: 30%;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  color: black
+
+}
+
+#poke-holder-img{
+  width: 100%;
+  height: 15vh;
+  margin-top: -5vh;
+  /* margin: 0 auto; */
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (max-width: 480px) {
+  body {
+      background-image: url('https://media-s3-us-east-1.ceros.com/hype-beast/images/2018/07/13/3510cdb9cf222cd0cec19fdfea4bddbb/pokedex.png?imageOpt=1&fit=bounds&width=1047');
+      width: 30vh;
+      margin-right: auto;
+  }
+  #pokedex-screen{
+    background-color: none;
+  }
+}

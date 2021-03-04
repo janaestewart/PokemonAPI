@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background-image: url('https://wallpaperaccess.com/full/8611.jpg') ;
+}
+
+#beginning{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#pokedex-parent{
+  border-radius: 20px;
+}
+
+#pokedex-body{
+  background-color: #ff0606;
+  border: 1px solid black;
+  height: 70vh;
+  width: 30%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+#pokedex-body h1{
+  text-align: center;
+}
+
+#pokedex-screen{
+  background-color: white;
+  border: 1px solid black;
+  height: 40vh;
+  width: 80%;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 1vh;
+  font-size: .5rem;
+}
+
+#inPokedexScreen{
+  display: grid;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#poke-holder{
+  height: 18vh;
+  width: 50%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+#poke-holder-img{
+  width: 100%;
+  height: 18vh;
+  margin: 0 auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
